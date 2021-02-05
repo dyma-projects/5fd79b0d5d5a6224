@@ -13,4 +13,8 @@ export class Exercice1Component implements OnInit {
   ngOnInit() {
   }
 
+  changeValue(index:number){
+
+    this.compteur =index;
+  }
 }
